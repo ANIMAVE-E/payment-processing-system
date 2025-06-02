@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.persistence.*;
+import jakarta.persistence.*;  // ✅ updated from javax.persistence
 import java.util.List;
 
 @SpringBootApplication
